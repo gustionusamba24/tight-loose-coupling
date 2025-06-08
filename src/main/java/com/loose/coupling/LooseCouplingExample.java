@@ -13,6 +13,6 @@ public class LooseCouplingExample {
 
         UserDataProvider newDatabaseProvider = new NewDatabaseProvider();
         UserManager userManagerWithNewDB = new UserManager(newDatabaseProvider);
-        System.out.println(userManagerWithDB.getUserInfo());
+        System.out.println(userManagerWithNewDB.getUserInfo());
     }
 }
